@@ -45,3 +45,20 @@ The /node directory is where the service code lives.
 }
 
 */
+
+/*
+!PASOS PARA LEVANTAR SERVIDOR:
+*1) vtex login
+*2) vtex whoami
+On VTEX IO, accounts have three main workspace types, namely master, production, and development.
+*3) vtex use {workspace} // vtex use fedeira
+https://fedeira--itglobers.myvtex.com/admin
+https://fedeira--itglobers.myvtex.com
+*4) replace the vendor and account values in the manifest.json file
+vendor is the account name you are working on and account is anything you want to name your theme.
+{
+  "vendor": "storecomponents",
+  "name": "my-test-theme",
+}
+*5) vtex list: to see the list of apps installed in your account
+*/

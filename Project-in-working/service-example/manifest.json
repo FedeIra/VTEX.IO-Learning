@@ -1,8 +1,8 @@
 {
-  "name": "fedeira-app",
+  "name": "fedeira-example",
   "vendor": "itglobers",
   "version": "0.2.21",
-  "title": "Service Example Fedeira",
+  "title": "fedeira-example",
   "description": "Service Example Fedeira for giftcard and transactions",
   "mustUpdateAt": "2018-01-04",
   "categories": [],
