@@ -14,7 +14,7 @@ export async function transactions(ctx: Context, next: () => Promise<any>) {
 
   const http = axios.create({
     headers: {
-      VtexIdAuthCookie: ctx.VtexIdAuthCookie,
+      VtexIdAuthCookie: ctx.vtex.authToken,
       'REST-Range': 'resources=0-1',
       'Cache-Control': 'no-cache',
       'X-Vtex-Use-Https': true,

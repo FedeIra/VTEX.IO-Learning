@@ -68,8 +68,8 @@ export default new Service({
     transaction: method({
       POST: [transactions, transactions_update], //? se agregan los middlewares que se van a ejecutar en el orden en que se declaran (se ejecuta el primero y luego el segundo)
     }),
-    // createProduct: method({
-    //   POST: [createProduct],
-    // }),
+    createProduct: method({
+      POST: [createProduct],
+    }),
   },
 })

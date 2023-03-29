@@ -13,18 +13,21 @@
     },
     "search": {
       "path": "/itglobers/giftcards/_search",
-      "public": true
+      "public": true,
+      "settingsType": "workspace"
     },
     "balance": {
       "path": "/itglobers/giftcards/:id",
-      "public": true
+      "public": true,
+      "settingsType": "workspace"
     },
     "transactions": {
       "path": "/itglobers/giftcards/:id/transactions",
-      "public": true
+      "public": true,
+      "settingsType": "workspace"
     },
-    "createProduct": {
-      "path": "/itglobers/api/catalog/pvt/product",
+    "create": {
+      "path": "/itglobers/product",
       "public": true
     }
   }
