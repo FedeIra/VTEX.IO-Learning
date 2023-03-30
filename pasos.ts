@@ -47,6 +47,11 @@ The /node directory is where the service code lives.
 */
 
 /*
+!CLIENTS:
+Clients, on VTEX IO, are abstractions to other services. Whenever you need to set up a connection with an external API or another VTEX service, you should create a client for it.
+*/
+
+/*
 !PASOS PARA LEVANTAR SERVIDOR:
 *1) vtex login
 *2) vtex whoami

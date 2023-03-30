@@ -1,8 +1,8 @@
 {
-  "name": "backend-course",
-  "vendor": "vtex",
+  "name": "fedeira-example",
+  "vendor": "itglobers",
   "version": "0.0.2",
-  "title": "Backend Course",
+  "title": "fedeira-example",
   "description": "Reference app for the Backend Course",
   "builders": {
     "node": "6.x"
