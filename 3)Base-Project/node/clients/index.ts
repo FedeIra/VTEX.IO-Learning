@@ -1,5 +1,5 @@
 import { IOClients } from '@vtex/api'
-import Analytics from '../clients/analytics'
+import Analytics from './analytics'
 
 const THREE_SECONDS_MS = 3 * 1000
 const CONCURRENCY = 10

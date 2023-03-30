@@ -1,5 +1,5 @@
 //node/event/liveUsersUpdate.ts
-import { Clients } from './../clients/index'
+import { Clients } from '../clients/index'
 import { EventContext } from '@vtex/api'
 
 export async function updateLiveUsers(ctx: EventContext<Clients>) {
