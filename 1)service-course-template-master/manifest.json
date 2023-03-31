@@ -1,8 +1,8 @@
 {
-  "name": "fedeira-example",
+  "name": "backend-course",
   "vendor": "itglobers",
   "version": "0.0.2",
-  "title": "fedeira-example",
+  "title": "Backend Course",
   "description": "Reference app for the Backend Course",
   "builders": {
     "node": "6.x"
@@ -11,9 +11,18 @@
     "prereleasy": "bash lint.sh"
   },
   "credentialType": "absolute",
-  "policies": [],
+  "policies": [
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "itglobers.vtexcommercestable.com.br",
+        "path": "*"
+      }
+    }
+  ],
   "dependencies": {
-    "vtex.events-example": "0.x"
+    "vtex.events-example": "0.x",
+    "vtex.mocked-analytics": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

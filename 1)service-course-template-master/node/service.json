@@ -1,12 +1,19 @@
 {
-  "memory": 512,
-  "ttl": 60,
-  "timeout": 5000,
+  "memory": 128,
+  "ttl": 10,
+  "timeout": 10,
   "minReplicas": 2,
-  "maxReplicas": 4,
+  "maxReplicas": 10,
+  "workers": 4,
+  "events": {
+    "liveUsersUpdate": {
+      "sender": "vtex.events-example",
+      "keys": ["send-event"]
+    }
+  },
   "routes": {
-    "status": {
-      "path": "/_v/status/:code",
+    "analytics": {
+      "path": "/_v/app/analytics/realTime",
       "public": true
     }
   }
