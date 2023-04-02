@@ -52,6 +52,7 @@ export default new Service<Clients, State, ParamsContext>({
     })
   },
   events: {
-    liveUsersUpdate: updateLiveUsers //? This is the event handler for the event liveUsersUpdate that we created in the file event/liveUsersUpdate.ts and exported as updateLiveUsers. This is the function that will be called when the event liveUsersUpdate is triggered.
+    liveUsersUpdate: updateLiveUsers
   }
+  //? This is the event handler for the event liveUsersUpdate that we created in the file event/liveUsersUpdate.ts and exported as updateLiveUsers. This is the function that will be called when the event liveUsersUpdate is triggered.
 });
