@@ -1,6 +1,6 @@
 {
   "name": "backend-course",
-  "vendor": "vtex",
+  "vendor": "itglobers",
   "version": "0.0.2",
   "title": "Backend Course",
   "description": "Reference app for the Backend Course",
@@ -16,7 +16,7 @@
       "name": "outbound-access",
       "attrs": {
         "host": "itglobers.vtexcommercestable.com.br",
-        "path": "/_v/*"
+        "path": "*"
       }
     }
   ],

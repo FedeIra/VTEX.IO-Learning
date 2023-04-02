@@ -16,6 +16,9 @@ import { updateLiveUsers } from './event/liveUsersUpdate';
 const memoryCache = new LRUCache<string, any>({ max: 5000 });
 metrics.trackCache('status', memoryCache);
 
+const THREE_SECONDS_MS = 3 * 1000;
+const CONCURRENCY = 10;
+
 declare global {
   type Context = ServiceContext<Clients, State>;
 
@@ -23,9 +26,6 @@ declare global {
     code: number;
   }
 }
-
-const THREE_SECONDS_MS = 3 * 1000;
-const CONCURRENCY = 10;
 
 export default new Service<Clients, State, ParamsContext>({
   clients: {
