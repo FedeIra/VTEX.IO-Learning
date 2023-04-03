@@ -1,0 +1,89 @@
+  console.log(ctex):
+
+  {
+  body: { random: '75' },
+  clients: Clients {
+    clientOptions: {
+      messages: [Object],
+      messagesGraphQL: [Object],
+      default: [Object],
+      events: [Object]
+    },
+    ctx: {
+      account: 'itglobers',
+      authToken: 'eyJhbGciOiJSUzI1NiIsImtpZCI6IkVFQkFGRjY1QkVFRUNDODUxQkQ2NkFEOEI0NjIyQUY2MDAzOEI5NUQiLCJ0eXAiOiJKV1QifQ.eyJhY2NvdW50IjoiaXRnbG9iZXJzIiwid29ya3NwYWNlIjoiZmVkZWlyYSIsInN1YiI6InZ0ZXguYmFja2VuZC1jb3Vyc2VAMC4wLjIiLCJ0eXBlIjoibGluayIsInVzZXJMb2dpbiI6ImZlZGVyaWNvLmlyYXJyYXphdmFsQGl0Z2xvYmVycy5jb20iLCJ1c2VySWQiOiI2ZWFjMWM5OS1kYWE0LTQ4YmUtYTEyNy01MzViMzY1MmZkY2EiLCJyb2xlcyI6WyJsaW5rOnZ0ZXguYmFja2VuZC1jb3Vyc2VAMC4wLjIiXSwibmJmIjoxNjgwNTMxNjcxLCJleHAiOjE2ODA2MTgwNzEsImlhdCI6MTY4MDUzMTY3MSwiaXNzIjoidnRleGlvL3JvdXRlciIsImF1ZCI6InZ0ZXhpbyJ9.McqQEYtcliILLnPkvup27nOBNzvU4wGN_9IjN8q99ck4-Z3CGhdex79snjmVrMs3FNyKy1H8iKrwZ00z816FMv0_re7B3dfyXbw-dO5bMBhZX64B6-4OEJ_xlo3s-rGyCaNGeA2XvkIshwkhr63zHoKM0aaHH8MqPjwI0mEj7w5GfUjXS2AqJyIha5EAKjprKPAgkr90GS-sg41amrJbWSK6AoSDCicjfqbgKGhEpRkT4UwzPWfsQdqR25tE1jeVRPwDvYThJYdq6Ll9QWIvJS6CApDZ_QbD8q7ziFFQMnFEcJBur4hwxj8Qs8eSBTXQ5tlQmbORHyEtFctGeH1PSQ',
+      binding: undefined,
+      host: undefined,
+      locale: undefined,
+      operationId: '67132960-587e-4415-9eb8-ef98222b905c',
+      platform: 'vtex',
+      product: undefined,
+      production: false,
+      region: 'aws-us-east-1',
+      requestId: '3dc957dd08b245aa9c02966d0ed1eada',
+      segmentToken: undefined,
+      sessionToken: undefined,
+      tenant: undefined,
+      tracer: [UserLandTracer],
+      userAgent: 'vtex.backend-course@0.0.2',
+      workspace: 'fedeira',
+      logger: [Logger],
+      eventInfo: [Object],
+      route: [Object],
+      serverTiming: [Object]
+    },
+    clients: { analytics: [Analytics] }
+  },
+  key: undefined,
+  metrics: {},
+  sender: 'vtex.events-example@0.0.1',
+  state: { recorder: Recorder { _record: [Object] }, body: { random: '75' } },
+  subject: undefined,
+  timings: { total: [ 0, 0 ] },
+  vtex: {
+    account: 'itglobers',
+    authToken: 'eyJhbGciOiJSUzI1NiIsImtpZCI6IkVFQkFGRjY1QkVFRUNDODUxQkQ2NkFEOEI0NjIyQUY2MDAzOEI5NUQiLCJ0eXAiOiJKV1QifQ.eyJhY2NvdW50IjoiaXRnbG9iZXJzIiwid29ya3NwYWNlIjoiZmVkZWlyYSIsInN1YiI6InZ0ZXguYmFja2VuZC1jb3Vyc2VAMC4wLjIiLCJ0eXBlIjoibGluayIsInVzZXJMb2dpbiI6ImZlZGVyaWNvLmlyYXJyYXphdmFsQGl0Z2xvYmVycy5jb20iLCJ1c2VySWQiOiI2ZWFjMWM5OS1kYWE0LTQ4YmUtYTEyNy01MzViMzY1MmZkY2EiLCJyb2xlcyI6WyJsaW5rOnZ0ZXguYmFja2VuZC1jb3Vyc2VAMC4wLjIiXSwibmJmIjoxNjgwNTMxNjcxLCJleHAiOjE2ODA2MTgwNzEsImlhdCI6MTY4MDUzMTY3MSwiaXNzIjoidnRleGlvL3JvdXRlciIsImF1ZCI6InZ0ZXhpbyJ9.McqQEYtcliILLnPkvup27nOBNzvU4wGN_9IjN8q99ck4-Z3CGhdex79snjmVrMs3FNyKy1H8iKrwZ00z816FMv0_re7B3dfyXbw-dO5bMBhZX64B6-4OEJ_xlo3s-rGyCaNGeA2XvkIshwkhr63zHoKM0aaHH8MqPjwI0mEj7w5GfUjXS2AqJyIha5EAKjprKPAgkr90GS-sg41amrJbWSK6AoSDCicjfqbgKGhEpRkT4UwzPWfsQdqR25tE1jeVRPwDvYThJYdq6Ll9QWIvJS6CApDZ_QbD8q7ziFFQMnFEcJBur4hwxj8Qs8eSBTXQ5tlQmbORHyEtFctGeH1PSQ',
+    binding: undefined,
+    host: undefined,
+    locale: undefined,
+    operationId: '67132960-587e-4415-9eb8-ef98222b905c',
+    platform: 'vtex',
+    product: undefined,
+    production: false,
+    region: 'aws-us-east-1',
+    requestId: '3dc957dd08b245aa9c02966d0ed1eada',
+    segmentToken: undefined,
+    sessionToken: undefined,
+    tenant: undefined,
+    tracer: UserLandTracer {
+      tracer: [Tracer],
+      fallbackSpan: [Span],
+      fallbackSpanLock: true,
+      _traceId: '8c99c595c945cdd1',
+      _isSampled: false
+    },
+    userAgent: 'vtex.backend-course@0.0.2',
+    workspace: 'fedeira',
+    logger: Logger {
+      debug: [Function],
+      info: [Function],
+      warn: [Function],
+      error: [Function],
+      log: [Function],
+      logSplunkQuery: [Function],
+      account: 'itglobers',
+      workspace: 'fedeira',
+      requestId: '3dc957dd08b245aa9c02966d0ed1eada',
+      operationId: '67132960-587e-4415-9eb8-ef98222b905c',
+      production: false,
+      tracingState: [Object]
+    },
+    eventInfo: {
+      key: undefined,
+      sender: 'vtex.events-example@0.0.1',
+      subject: undefined
+    },
+    route: { id: 'liveUsersUpdate', params: {}, type: 'event' },
+    serverTiming: { '0.backend-course#mocked-analytics': '29' }
+  }
+}

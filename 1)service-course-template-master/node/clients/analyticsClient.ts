@@ -6,6 +6,8 @@ export default class Analytics extends AppClient {
   }
 
   public async getLiveUsers(): Promise<LiveUsersProduct[]> {
+    console.log('3) AnalyticsClient.ts in clients directory: getLiveUsers');
+
     return this.http.get('_v/live-products');
     //will get the necessary data for this application: an array of objects that have two fields: slug, a string that represents the product ID and liveUsers, a number that is the quantity of users visualizing this product - which are the fields in the interface.
   }

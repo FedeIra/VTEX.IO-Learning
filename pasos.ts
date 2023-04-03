@@ -67,3 +67,14 @@ vendor is the account name you are working on and account is anything you want t
 }
 *5) vtex list: to see the list of apps installed in your account
 */
+
+/*
+!Clients: Using Master Data
+Every time we retrieve new data we want to update it using Master Data (a database-as-a-service product from VTEX).
+
+Master Data is a VTEX service. By default, it's used to store and organize customer data, but it's also widely used by VTEX stores to make business rule customizations and create applications for your virtual store. You can configure applications that use the module as a data repository to create a system on top of Master Data, just by modeling new data.
+
+In the current version of Master Data, we use the concept of data entities and use JSON Schema to validate and index documents.
+
+The JSON Schema is not required for all endpoints. If you don't need to validate your data, you may save your documents without any setup, just indicate the data entity and some access credential.
+*/
