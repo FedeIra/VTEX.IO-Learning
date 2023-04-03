@@ -77,4 +77,32 @@ Master Data is a VTEX service. By default, it's used to store and organize custo
 In the current version of Master Data, we use the concept of data entities and use JSON Schema to validate and index documents.
 
 The JSON Schema is not required for all endpoints. If you don't need to validate your data, you may save your documents without any setup, just indicate the data entity and some access credential.
+
+Master Data Documents have unique IDs and can have many customized fields. In the JSON Schema, you can declare fields and indicate the ones that you want to index. Indexed fields can be retrieved in queries.
+
+A Master Data client is already provided in VTEX IO Node Runtime. It is possible to access this client through the Context, a param which contains all IO Clients in the clients property.
+
+set up your Master Data:
+*1) https://{{your-account-name}}.vtexcommercestable.com.br/api/dataentities/course_backend_product_list/schemas/{{your-schema-name}}.
+
+*2) Manifest.json:
+{
+      "name": "ADMIN_DS"
+    },
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "api.vtex.com",
+        "path": "/dataentities/*"
+      }
+    }
+
+
+  GraphQL, the technology used by VTEX IO for data fetching, to implement a query to Master Data. GraphQL allows us to implement queries in a simple and easy way, specifying the data you want to retrieve. This makes your API reliable since GraphQL controls the data fetched instead of the server itself.
+
+  GraphQL uses types and a query schema to specify the data retrieved and resolvers to get the exact data needed.
+
+  we need to create the query's resolver. The resolver is what happens when a query is executed.
+
+To define this resolver, in the /node/resolvers directory, create the file products.ts
 */

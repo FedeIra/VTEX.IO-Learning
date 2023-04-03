@@ -1,11 +1,13 @@
 {
   "name": "backend-course",
-  "vendor": "itglobers",
+  "vendor": "vtex",
   "version": "0.0.2",
   "title": "Backend Course",
   "description": "Reference app for the Backend Course",
   "builders": {
-    "node": "6.x"
+    "node": "6.x",
+    "graphql": "1.x",
+    "docs": "0.x"
   },
   "scripts": {
     "prereleasy": "bash lint.sh"
@@ -16,7 +18,17 @@
       "name": "outbound-access",
       "attrs": {
         "host": "itglobers.vtexcommercestable.com.br",
-        "path": "*"
+        "path": "/_v/*"
+      }
+    },
+    {
+      "name": "ADMIN_DS"
+    },
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "api.vtex.com",
+        "path": "/dataentities/*"
       }
     }
   ],
