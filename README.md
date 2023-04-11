@@ -1,6 +1,6 @@
 # VTEX IO-Learning
 
-Contenido:
+Content:
 
 1. Developing services: https://learn.vtex.com/docs/course-service-course-lang-en
 2. Calling Core Commerce APIs on VTEX IO: https://learn.vtex.com/docs/course-calling-commerce-apis-lang-en
